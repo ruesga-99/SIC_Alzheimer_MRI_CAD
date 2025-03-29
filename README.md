@@ -42,3 +42,22 @@ The main model consists of a CNN with the following architecture
 2. Dense Layer 256 neurons, RELU
 3. Batch Normalization
 4. Dense Output Layer 4 neurons, SOFTMAX
+
+## Prerequisites and Dependencies
+Make sure you have the following installed:
+- Python 3.x (We are using 3.10)
+
+This project uses the following Python libraries:
+- numpy
+- pandas
+- seaborn
+- matpolib
+- kagglehub
+- tensorflow
+- scikit-learn
+
+## Usage
+
+
+## Contributors
+
