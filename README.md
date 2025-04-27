@@ -2,7 +2,7 @@
 This repository hosts a Computer-Aided Diagnosis for Alzheimer early phases using *magnetic resonance imaging* (MRI) and *convolutional neural networks* (CNN). 
 
 ## About the dataset
-The dataset was taken from [Kaggle](https://www.kaggle.com/code/aashidutt3/alzheimer-classification-with-mri-images/input) and contains MRI images from Alzheimer's early stages; in the dataset an original and an augmented version can be found.
+The dataset was taken from [Kaggle](https://www.kaggle.com/code/aashidutt3/alzheimer-classification-with-mri-images/input) and contains MRI images from Alzheimer's early stages; in the dataset an original and an augmented version can be found. Augmented dataset was used for training, validation and testing.
 
 The dataset is divided into four categories as shown:
 
@@ -14,6 +14,8 @@ The dataset is divided into four categories as shown:
 | Moderate_demented  | 6464 images        | 64 images          |
 
 ## About the model
+
+### Architecture
 The main model consists of a CNN with the following architecture
 
 ***First Block*** (Spatial Dropout 0.2)
@@ -43,6 +45,10 @@ The main model consists of a CNN with the following architecture
 3. Batch Normalization
 4. Dense Output Layer 4 neurons, SOFTMAX
 
+### Training & Validation
+
+### Testing & Results
+
 ## Prerequisites and Dependencies
 Make sure you have the following installed:
 - Python 3.x (We are using 3.10)
@@ -60,4 +66,5 @@ This project uses the following Python libraries:
 
 
 ## Contributors
-
+🔹 [Ingrid](https://github.com/ingridperezs)
+🔹 [Juan](https://github.com/juanuwo)
